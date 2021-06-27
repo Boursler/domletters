@@ -13,6 +13,7 @@ def main():
     lookup = [0] * numletters
     counts = []
     words = lines.split()
+
     for word in words:
         for letter in word:
             ascii = ord(letter.lower())
